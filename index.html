@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="grid.css">
   <script src="node_modules/sass/sass.js" defer></script>
   <title>Grid</title>
@@ -9,19 +10,27 @@
 <body>
 <div class="container">
   <div class="row">
-    <h1 class="col-12">Row</h1>
-    <h1 class="col-6-sm col-12">Hola</h1>
-    <h1 class="col-6-sm col-12">otro hola</h1>
+    <h1 class="col-12">Container</h1>
   </div>
-  <div class="row">
-    <h1 class="col-6-sm col-12">col-12 col-6-sm</h1>
-    <h1 class="col-6-sm col-12">otro hola</h1>
+  <div class="row mt-48">
+    <h1 class="col-12">col-12</h1>
+    <h1 class="col-11-sm col-11">col-11</h1>
+    <h1 class="col-1-sm col-1">col-1</h1>
+    <h1 class="col-6-sm col-10">col-10</h1>
+    <h1 class="col-6-sm col-2">col-2</h1>
+    <h1 class="col-6-sm col-9">col-9</h1>
+    <h1 class="col-6-sm col-3">col-3</h1>
+    <h1 class="col-6-sm col-8">col-8</h1>
+    <h1 class="col-6-sm col-4">col-4</h1>
+    <h1 class="col-6-sm col-7">col-7</h1>
+    <h1 class="col-6-sm col-5">col-5</h1>
+    <h1 class="col-6-sm col-6">col-6</h1>
+    <h1 class="col-6-sm col-6">col-6</h1>
   </div>
 </div>
 <style>
-  h1{
-      background-color: aquamarine;
-  }
+  h1{ background-color: aquamarine; }
+  .mt-48{margin-top: 48px}
 </style>
 </body>
 </html>
